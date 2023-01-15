@@ -37,5 +37,3 @@ if __name__ == "__main__":
 #### For localhost: ####
 For localhost remove `host="0.0.0.0"`
 
-#### Tip: ###
-Use a Rubber Ducky
